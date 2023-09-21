@@ -1,0 +1,20 @@
+import Queue from "./01-实现队列结构-数组";
+
+const queue = new Queue<number>();
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+queue.enqueue(34);
+console.log(queue);
+console.log(queue.peek());
+console.log(queue.dequeue());
+console.log(queue);
+console.log(queue.isEmpty());
+console.log(queue.size());
+console.log(queue.dequeue());
+console.log(queue.dequeue());
+console.log(queue.dequeue());
+console.log(queue.isEmpty());
+console.log(queue.size());
+console.log(queue.peek());
+console.log(queue.dequeue());
