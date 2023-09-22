@@ -1,4 +1,5 @@
-import Queue from "./01-实现队列结构-数组";
+// import Queue from "./01-实现队列结构-数组";
+import Queue from "./02-实现队列结构-链表";
 
 const queue = new Queue<number>();
 queue.enqueue(1);

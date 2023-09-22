@@ -1,4 +1,4 @@
-import { IQueue } from "./IQueue";
+import { IQueue } from "../types/IQueue";
 
 /**
  * 基于数组实现队列结构

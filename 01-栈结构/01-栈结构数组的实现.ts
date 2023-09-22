@@ -1,4 +1,4 @@
-import { IStack } from "./IStack";
+import { IStack } from "../types/IStack";
 
 class Stack<T> implements IStack<T> {
   private arr: T[] = [];

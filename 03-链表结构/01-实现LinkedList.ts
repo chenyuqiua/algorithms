@@ -1,3 +1,5 @@
+import { ILinkedList } from "../types/ILinkedList";
+
 class ListNode<T> {
   val: T | null;
   next: ListNode<T> | null;
@@ -7,7 +9,7 @@ class ListNode<T> {
   }
 }
 
-class LinkedList<T> {
+class LinkedList<T> implements ILinkedList<T> {
   private head: ListNode<T> | null = null;
   private _size: number = 0;
 
@@ -125,6 +127,13 @@ class LinkedList<T> {
     }
 
     return -1;
+  }
+
+  /**
+   * @description 返回第一个节点的val
+   */
+  peek(): T | undefined {
+    return this.head?.val ?? undefined;
   }
 
   /**

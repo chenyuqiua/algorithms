@@ -1,4 +1,4 @@
-import { IList } from "../types/list";
+import { IList } from "./IList";
 export interface IQueue<T> extends IList<T> {
   enqueue(val: T): void; // 入队列
   dequeue(): T | undefined; // 出队列

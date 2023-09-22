@@ -1,5 +1,5 @@
 import Queue from "./01-实现队列结构-数组";
-import { IQueue } from "./IQueue";
+import { IQueue } from "../types/IQueue";
 
 function hotPotato(names: string[], num: number) {
   let cur: number = 1;
