@@ -2,7 +2,7 @@
  * 基于链地址法实现HashTable
  */
 class HashTable<T = any> {
-  data: [string, T][][] = [];
+  private data: [string, T][][] = [];
   private length: number = 7;
   private count: number = 0;
 

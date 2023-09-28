@@ -34,4 +34,4 @@ hash.delete("kkk");
 hash.delete("ggg");
 hash.delete("fff");
 hash.delete("cba");
-console.log(hash.data);
+// console.log(hash.data);
