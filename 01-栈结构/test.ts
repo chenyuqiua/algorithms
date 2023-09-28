@@ -1,4 +1,4 @@
-import Stack from "./01_栈结构数组的实现";
+import Stack from "./01-栈结构数组的实现";
 
 const stack = new Stack<number>();
 stack.push(1);
